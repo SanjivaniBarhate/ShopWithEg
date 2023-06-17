@@ -11,7 +11,7 @@ import io.cucumber.java.en.When;
 import pages.LandingPage;
 import pages.LoginPage;
 
-public class StepDefination extends DriverFactory{
+public class StepDef extends DriverFactory{
 	
 	LandingPage landingPage=new LandingPage(driver);
 	LoginPage loginPage=new LoginPage(driver);
@@ -54,5 +54,4 @@ public class StepDefination extends DriverFactory{
 		
 		
 	}
-
 }
