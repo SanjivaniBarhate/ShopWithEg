@@ -1,11 +1,8 @@
 package stepDefinations;
 
-import java.time.Duration;
+import utility.DriverFactory;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.time.Duration;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -13,11 +10,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.LandingPage;
 import pages.LoginPage;
-import utility.DriverFactory;
 
 public class StepDefination extends DriverFactory{
 	
-
 	LandingPage landingPage=new LandingPage(driver);
 	LoginPage loginPage=new LoginPage(driver);
 	
@@ -59,6 +54,5 @@ public class StepDefination extends DriverFactory{
 		
 		
 	}
-	   
 
 }
